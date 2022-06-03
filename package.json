@@ -1,0 +1,30 @@
+{
+  "name": "react-xib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "start": "ts-node-transpile-only demo/XmlApp.tsx "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native/normalize-color": "^2.0.0",
+    "debug": "^4.3.4",
+    "fbjs": "^3.0.4",
+    "jsdom": "^19.0.0",
+    "react": "^18.1.0",
+    "react-reconciler": "^0.28.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-reconciler": "^0.26.7",
+    "@types/xml2js": "^0.4.11",
+    "react-dom": "^18.1.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
