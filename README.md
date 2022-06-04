@@ -172,3 +172,12 @@ function App() {
 - I'd love to see the API be so close that we could render live previews using `react-native-web` so you don't have to open Xcode -- Xcode crashes very easily if the `.storyboard` is corrupt in any way.
 - We currently implement features like 'background color' by using `style={{ backgroundColor: 'firebrick' }}`, I'd like to see this used for flexbox + autolayout.
 - We need to hoist platform colors and image assets into the document, if we could use context providers to automatically inject these values based on usage then the API would be much safer.
+
+
+## Fragile
+
+Storyboard isfragile and can cause Xcode to crash, seems like Apple's priority is maybe on adding support to Swift UI for creating launch screens:
+<img width="1112" alt="Screen Shot 2022-06-04 at 2 58 14 PM" src="https://user-images.githubusercontent.com/9664363/172023782-fa298e9e-e773-47c3-84c0-24479f7836d7.png">
+
+
+
